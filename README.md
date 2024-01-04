@@ -4,8 +4,8 @@ React+TypeScript+R3Fのtutorial応用編3(glTFで3Dモデルとモーション�
 ![](https://storage.googleapis.com/zenn-user-upload/26951f09783d-20240104.png)
 
 # ポイント
-3Dモデルのアニメーションを実行するには、THREE.AnimationMixerを使うのがポイント。
-THREE.AnimationMixerの使い方は、以下の通り。
+3Dモデルのアニメーションを実行するには、THREE.AnimationMixerを使うのがポイント。<br/>
+THREE.AnimationMixerの使い方は、以下の通り。<br/>
 
 1.　new THREE.AnimationMixer() ← 引数にsceneを渡す。
  ↓
@@ -14,6 +14,6 @@ THREE.AnimationMixerの使い方は、以下の通り。
 3. 追加したアニメーションをstart()
  ↓
 4. useFrame()の中で、mixer.update()
-で動くようになる。分かりやすっ!!
+<br/>で動くようになる。分かりやすっ!!
 
 
